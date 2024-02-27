@@ -1,19 +1,107 @@
-body{
-  background-image: url("img/6545e34a0c5d99db51e102ca4ba83fe8.jpg");
+#page1{
+  background-image: url("img/pages-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
+  display: block;
+}
+#page2{
+  background-image: url("img/pages-07.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
+  display: block;
+}
+#page3{
+  background-image: url("img/catwoman-1-joelle-jones.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
+}
+#page4{
+  background-image: url("img/thumbnail_pages-06.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
+}
+#page5{
+  background-image: url("img/thumbnail_pages-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
+}
+#page6{
+  background-image: url("img/thumbnail_pages-05.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
+}
+#intro {
+  background-image: url("img/3552e2a0272008dbe1e38cd53e19f078.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
 }
 .top {
   position: fixed;
-  color: red;
   padding: center !important ;
-  padding-top: 5px;
+  padding-top: 30px;
   padding-right: 15px;
   padding-bottom: 5px;
-  padding-left: 550px;
+  padding-left: 500px;
   margin: 90 !important;
-  top: 40px;
+  top: 0px;
   z-index: 2;
   width: 100%;
   white-space: nowrap;
   overflow-x: auto;
   overflow-y: auto;
+  background-color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 30px;
+  height: 48px;
+}
+a:hover {
+  color: blueviolet;
+}
+.end {
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x)/ 2);
+  padding-left: calc(var(--bs-gutter-x)/ 2);
+  margin-top: var(--bs-gutter-y);
+  position: relative;
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 48px;
+  padding: center !important ;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 100px;
+  margin: 90 !important;
+}
+img{
+  display: block;
+}
+h2 {
+  position: absolute;
+  left: 1000px;
+  top: 150px;
+  color: black;
+}
+/* MEDIA QUERIES */
+/* Media queries should be written from largest to smallest width */
+
+@media screen and (max-width: 900px) {
+
+}
+
+  
+/* Add your in-between media query here */
+ 
+
+@media screen and (max-width: 700px) {
+  
+  
 }

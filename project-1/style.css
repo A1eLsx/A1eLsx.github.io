@@ -1,0 +1,17 @@
+#intro {
+background-image: url("/img/tnthenight.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+ a{
+    position: fixed;
+  padding: center !important ;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 625px;
+  color: antiquewhite;
+  font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+  font-size: xxx-large;
+
+ }

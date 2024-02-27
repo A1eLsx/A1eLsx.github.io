@@ -15,5 +15,13 @@ background-size: cover;
   font-weight: 700;
   font-style: normal;
   font-size: xxx-large;
-
  }
+ a {
+  color: white;
+}
+a:hover {
+  color: blueviolet;
+}
+a:link {
+  text-decoration: none;
+}

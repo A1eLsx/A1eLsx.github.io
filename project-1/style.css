@@ -1,23 +1,27 @@
-#intro {
-background-image: url("/img/tnthenight.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-}
- a{
-    position: fixed;
-  padding: center !important ;
+img {
+  width: 2000vw;
+  max-width: 100%;
+  display: flex;
   padding-top: 30px;
-  padding-right: 15px;
-  padding-bottom: 5px;
-  padding-left: 600px;
-  color: antiquewhite;
-  font-family: "tgn-soft-round", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: xxx-large;
- }
+  padding-bottom: 50px;
+}
+
+
+#intro {
+background-color: black;
+}
+
  a {
   color: white;
+  font-family: "trade-gothic-next-condensed", sans-serif;
+font-weight: 1000;
+font-style: normal;
+font-size: 5vw;
+display: flex;
+flex-wrap: wrap;
+justify-content: left;
+align-items: left;
+
 }
 a:hover {
   color: blueviolet;
@@ -25,3 +29,9 @@ a:hover {
 a:link {
   text-decoration: none;
 }
+
+
+
+
+
+

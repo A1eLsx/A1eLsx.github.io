@@ -1,3 +1,4 @@
+
 img {
   width: 2000vw;
   max-width: 100%;
@@ -8,7 +9,10 @@ img {
 
 
 #intro {
-background-color: black;
+  background-image: url(/img/Hallway_4edit.jpg);
+  width: 2000vw;
+  max-width: 100%;
+  display: flex;
 }
 
  a {

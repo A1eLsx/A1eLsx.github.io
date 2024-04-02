@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header {
+    color: black;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding: -1em 0;
+    padding-bottom: -3px;
+    border-bottom: 1px solid #000;
+}
+
+P{
+    font-family: "trade-gothic-next-condensed", sans-serif;
+font-weight: 1000;
+font-style: normal;
+font-size: 25px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+h2{
+    font-size: 180px;
+    line-height: 140px;
+    font-family: "tgn-soft-round-comp", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding: -1em 0;
+    padding-bottom: -3px;
+}
+img{
+    background-image: url(./imgs/IMG_8873.jpeg);
+    width: 2000vw;
+    max-width: 100%;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.statues {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding: -1em 0;
+    padding-bottom: -3px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a {
+    color: black;
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+  }
+  a:hover {
+    color: blueviolet;
+  }
+
+  .parent-flex {
+    display: flex;
+    padding: 10px;
+    gap: 70px;
+  }
+
+/* Dropdown Button */
+.dropbtn {
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+background-color: white;
+border: none;
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+    background-color: transparent;
+    padding: 12vw 16vw;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: black ;
+    color: white;
+    transition: 0.3s;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.flex {
+display: flex;
+justify-content: left;
+}
+
+#text{
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    border: white;
+}
+
+.left{
+        display: flex;
+        flex-wrap:reverse;
+        justify-content: right;
+        }

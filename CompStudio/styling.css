@@ -1,0 +1,83 @@
+#startButton {
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+#stopButton{
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+H1 { 
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+/*div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+  }*/
+
+.word {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+#output{
+    display: flex;
+    justify-content: center;
+    color: rgb(95, 222, 110);
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    /*border: 1px solid #ccc;*/
+    border-radius: 5px;
+    min-height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 65%;
+}
+.word #startButton:hover{
+
+    color: gray;
+    transition: 0.3s;
+}
+.word #stopButton:hover{
+    color: gray;
+    transition: 0.3s;
+}

@@ -3,6 +3,11 @@
 let pictures= [
 'IMG_3410.jpeg',
 'IMG_4844.PNG',
+'IMG_5196.jpeg',
+'IMG_5236.jpeg',
+'IMG_8873.jpeg',
+'IMG_8874.jpeg',
+'IMG_8875.jpeg'
 ];
 
 let imageElement = document.getElementById("statues")

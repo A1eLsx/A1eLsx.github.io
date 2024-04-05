@@ -41,6 +41,8 @@ h2{
     font-family: "tgn-soft-round-comp", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 main {
@@ -104,6 +106,7 @@ a {
     color: black;
 background-color: white;
 border: none;
+margin-bottom: -100px;
 
   }
   
@@ -154,10 +157,7 @@ border: none;
     transition: 0.3s;
 }
 
-.flex {
-display: flex;
-justify-content: left;
-}
+
 
 #text{
     font-family: "trade-gothic-next", sans-serif;
@@ -167,8 +167,3 @@ justify-content: left;
     border: white;
 }
 
-.left{
-        display: flex;
-        flex-wrap:reverse;
-        justify-content: right;
-        }

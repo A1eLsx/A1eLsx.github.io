@@ -21,10 +21,14 @@ header {
     margin: 0 auto;
     padding-top: 1em;
     padding: -1em 0;
-    padding-bottom: -3px;
-    border-bottom: 1px solid #000;
+    padding-bottom: -6px;
+   /* border-bottom: 1px solid #000;*/
 }
+ hr{
+  border-top: 1px solid black;
+  max-width: 800px;
 
+ }
 P{
     font-family: "trade-gothic-next-condensed", sans-serif;
 font-weight: 1000;
@@ -148,7 +152,8 @@ margin-bottom: -100px;
 }
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {
+    display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
@@ -157,13 +162,17 @@ margin-bottom: -100px;
     transition: 0.3s;
 }
 
-
-
 #text{
     font-family: "trade-gothic-next", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 12px;
     border: white;
+}
+
+.overall {
+  display: flex;
+  flex-direction: row;
+  gap: 534px;
 }
 

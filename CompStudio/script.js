@@ -11,6 +11,13 @@ recognition.onresult = function(event) {
     const result = event.results[event.results.length - 1];
     const transcript = result[0].transcript;
     output.innerHTML = transcript;
+
+    if(transcript == "Hello"){
+        output.innerHTML = "🇯🇲";
+    }
+    if(transcript == "Thank you"){
+        output.innerHTML = "no";
+    }
 };
 
 startButton.addEventListener('click', function() {

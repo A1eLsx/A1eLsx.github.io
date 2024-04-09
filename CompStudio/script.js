@@ -13,7 +13,7 @@ recognition.onresult = function(event) {
     output.innerHTML = transcript;
 
     if(transcript == "Hello"){
-        output.innerHTML = "🇯🇲";
+        output.innerHTML = "BOMBACLAT";
     }
     if(transcript == "Thank you"){
         output.innerHTML = "no";

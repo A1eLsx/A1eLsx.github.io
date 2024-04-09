@@ -106,18 +106,21 @@ a {
     font-family: "trade-gothic-next", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 24px;
+    font-size: 20px;
     color: black;
-background-color: white;
+background-color:white;
 border: none;
 margin-bottom: -100px;
-
   }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
+   padding: 14px 18px;
+    padding-left: 0px;
+    padding-right: 100px;
+ 
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -129,31 +132,39 @@ margin-bottom: -100px;
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
+
   }
-  
-  /* Links inside the dropdown */
+
+  /* Links inside the dropdown */ 
   .dropdown-content a {
     font-family: "trade-gothic-next", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 24px;
+    font-size: 14px;
     color: black;
     background-color: transparent;
-    padding: 12vw 16vw;
+   /*padding: 15px 104px;*/
+   padding-right: 204px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
     text-decoration: none;
     display: block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.264);
+
   }
-  
+
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
     background-color: black ;
     color: white;
-    transition: 0.3s;
+    transition: 0.5s;
 }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
-    display: block;}
+    display: block;
+    }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
@@ -162,17 +173,25 @@ margin-bottom: -100px;
     transition: 0.3s;
 }
 
-#text{
+#text {
     font-family: "trade-gothic-next", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 12px;
+    font-size: 18px;
     border: white;
+  display: flex;
+  gap: 20px;
+
+  padding-bottom: 1px;
 }
 
 .overall {
   display: flex;
   flex-direction: row;
-  gap: 534px;
+  gap: 334px;
+  padding: 14px 18px;
 }
+
+
+
 

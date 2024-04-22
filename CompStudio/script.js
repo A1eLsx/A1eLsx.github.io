@@ -1,6 +1,7 @@
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
 const output = document.getElementById('output');
+const emojis = document.getElementById
 
 const recognition = new webkitSpeechRecognition();
 recognition.continuous = true;
@@ -12,8 +13,13 @@ recognition.onresult = function(event) {
     const transcript = result[0].transcript;
     output.innerHTML = transcript;
 
-    if(transcript == "Hello"){
-        output.innerHTML = "BOMBACLAT";
+    let emojis = ["😄", "🎉", "🚀", "🌈", "🦄", "🍕","😂","🥹","😡","🤭", "🫥"];
+  if(transcript == "Hello"){
+        emojis.innerHTML = "B";
+    }
+
+    if(transcript == "fine"){
+        output.innerHTML = "B";
     }
     if(transcript == "Thank you"){
         output.innerHTML = "no";

@@ -7,27 +7,42 @@
     <title>Access</title>
     <link rel="stylesheet" href="Style.css">
 </head>
+
+
+
 <body>
     <header>
-        <h1>ARCHIVE</h1>
-        <script src="myscript.js"></script>
+        <h1>SEARCH PARTY</h1>
+       
 
 <div class="overall">
 <div class="flex"> 
         <div class="dropdown">
-            <button class="dropbtn">Archive</button>
+            <button class="dropbtn">Home</button>
 
             <div class="dropdown-content">
                 <A href="./random.html">Random</A>
-                <A href="./random.html">Random</A>
-                <A href="./random.html">Random</A>
+                
                 
             </div>
-            
+           
 </div>
 </div>
      
-<input type="text" id="text" placeholder="                              Search for" oninput="changeText()">
+<!-- <input type="text" id="text" placeholder="Search for" oninput="changeText()"> -->
+
+<div id="search-box">
+
+    <form action="" class="search-form">
+        <input placeholder="Some Text" type="text" name="home" id="text"  onkeyup="filterImages()" />
+    </form>
+    
+    <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+     xml:space="preserve">
+  <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>
+  <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>
+</svg>
+</div>
           
 </div>     
     </header>
@@ -36,16 +51,23 @@
         <h2>THE<br>ARCHIVE</br></h2>
     </main>
 
+   
+<div id="images">
+    <!-- <ul id="imageList"> -->
+   <li><p><img src="./imgs/IMG_8874.jpeg" alt="Graphic design"><span class="hide">Graphic design</span></br></p></li>
+    <li><p><img src="./imgs/IMG_8873.jpeg" alt="Painting"><span class="hide">Painting</span></p></li>
+    <li><p><img src="./imgs/IMG_8875.jpeg" alt="Comic"><span class="hide">Comic</span></p></li>
+    <li><p><img src="./imgs/IMG_3410.jpeg" alt="Comic"><span class="hide">Comic</span></p></li>
+    <li><p><img src="./imgs/IMG_5236.jpeg" alt="Comic"><span class="hide">Comic</span></p></li>
+    <li><p><img src="./imgs/IMG_5196.jpeg" alt="Comic"><span class="hide">Comic</span></p></li>
+    <li><p><img src="./imgs/IMG_4844.PNG" alt="Comic"><span class="hide">Comic</span></p></li>
+<!-- </ul> -->
+</div>
 
-    <img src="./imgs/IMG_8874.jpeg">
-    <img src="./imgs/IMG_8873.jpeg">
-    <img src="./imgs/IMG_8875.jpeg">
-    <img src="./imgs/IMG_3410.jpeg">
-    <img src="./imgs/IMG_5236.jpeg">
-    <img src="./imgs/IMG_5196.jpeg">
-    <img src="./imgs/IMG_4844.PNG">
-    
+    <script src="myscript.js"></script>
 </body>
+
+
 <footer>
     <p>Accessible book</p>
 </footer>

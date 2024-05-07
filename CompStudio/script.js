@@ -8,18 +8,19 @@ recognition.continuous = true;
 recognition.interimResults = true;
 recognition.lang = 'en-US';
 
+
 recognition.onresult = function(event) {
     const result = event.results[event.results.length - 1];
     const transcript = result[0].transcript;
     output.innerHTML = transcript;
-
-    let emojis = ["😄", "🎉", "🚀", "🌈", "🦄", "🍕","😂","🥹","😡","🤭", "🫥"];
+    console.log(recognition)
+    
   if(transcript == "Hello"){
-        emojis.innerHTML = "B";
+        output.innerHTML = "testing";
     }
 
     if(transcript == "fine"){
-        output.innerHTML = "B";
+        output.innerHTML = "bad";
     }
     if(transcript == "Thank you"){
         output.innerHTML = "no";

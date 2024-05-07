@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff5200;
+    margin: 7px;
+    overflow: hidden;
+}
+
+.clock-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hour, .minute, .second {
+    position: absolute;
+    font-size: 24px;
+    white-space: nowrap;
+    color: #F7E691;
+}
+
+.hour {
+    top: 0;
+    animation: moveUp 360s infinite alternate;
+    font-family: feneon,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.minute {
+    left: 100%;
+    animation: moveLeft 60s infinite linear;
+    font-family: feneon,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+}
+
+.second {
+    top: 0;
+    left: 0;
+    animation: moveDiagonal 1s infinite linear;
+    font-family: feneon,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+}
+
+@keyframes moveUp {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes moveDiagonal {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    100% {
+        top: 100%;
+        left: 100%;
+    }
+}

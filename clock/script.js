@@ -14,6 +14,7 @@ function updateClock() {
 // if(thisSecond < 10) {
 //   thisSecond = "0" + thisSecond;
 // }
+
 }
 
 updateClock();

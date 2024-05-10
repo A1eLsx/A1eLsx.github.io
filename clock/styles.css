@@ -2,10 +2,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 120px 80px 40px 20px #0ff;
     height: 100vh;
-    background-color: #ff5200;
-    margin: 7px;
+    background-color: black;
+    margin: 0;
     overflow: hidden;
+   
 }
 
 .clock-container {
@@ -16,37 +18,36 @@ body {
 
 .hour, .minute, .second {
     position: absolute;
-    font-size: 24px;
+    font-size: 74px;
     white-space: nowrap;
-    color: #F7E691;
+    font-family: trade-gothic-next, sans-serif;
+font-weight: 700;
+font-style: normal;
+    color: whitesmoke;
+    /* text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px #CC3539; */
+
 }
 
 .hour {
     top: 0;
-    animation: moveUp 360s infinite alternate;
-    font-family: feneon,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
+    animation: moveUp 3600s infinite alternate;
+    font-size: 200px;
+    opacity: 10%;
 }
 
 .minute {
     left: 100%;
     animation: moveLeft 60s infinite linear;
-    font-family: feneon,sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 40px;
+
+opacity: 30%;
 }
 
 .second {
     top: 0;
     left: 0;
     animation: moveDiagonal 1s infinite linear;
-    font-family: feneon,sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 40px;
+
+font-size: 70px;
 }
 
 @keyframes moveUp {
